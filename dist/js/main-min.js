@@ -1,0 +1,1 @@
+function onReady(e){var n=window.setInterval(function(){void 0!==document.getElementsByTagName("body")[0]&&(window.clearInterval(n),e.call(this))},1e3)}function setVisible(e,n){document.querySelector(e).style.display=n?"block":"none"}onReady(function(){setVisible(".page",!0),setVisible("#loading",!1)});
